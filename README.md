@@ -3,6 +3,8 @@ Proof that C++ templates are effectively a pure functional programming language.
 
 In order to prove this, the library reimagines many of Haskell's common types and functions to show that they can be implemented in C++'s template system.
 
+![Bjarne Stroustrup: I Accidentally; A meta programming language](http://aras-p.info/blog/wp-content/uploads/2009/03/cppaccident.jpg)
+
 ---
 
 ## TypeList
@@ -36,7 +38,6 @@ Like Haskell's basic `[a]` type, but operating on types rather than values.
 - `Foldr1`
 - `Scanl1`
 - `Scanr1`
-- `Iterate`
 - `Replicate`
 - `Take`
 - `Drop`
