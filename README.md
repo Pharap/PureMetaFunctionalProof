@@ -27,6 +27,11 @@ Like Haskell's basic `[a]` type, but operating on types rather than values.
 - `Map< template< typename > Z, U, TypeList< Ts ... > >`
 - `Foldl< template< typename, typename > Z, U, TypeList< Ts ... > >`
 - `Scanl< template< typename, typename > Z, U, TypeList< Ts ... > >`
+- `Foldl1< template< typename, typename > Z, TypeList< Ts ... > >`
+- `Scanl1< template< typename, typename > Z, TypeList< Ts ... > >`
+- `Replicate< unsigned long long N, TypeList< Ts ... > >`
+- `Elem< typename T, TypeList< Ts ... >`
+- `NotElem< typename T, TypeList< Ts ... >`
 
 ### Planned Features:
 
@@ -34,11 +39,8 @@ Like Haskell's basic `[a]` type, but operating on types rather than values.
 - `Scanr< template< typename, typename > Z, U, TypeList< Ts ... > >`
 - `Uncons`
 - `Intersperse`
-- `Foldl1`
 - `Foldr1`
-- `Scanl1`
 - `Scanr1`
-- `Replicate`
 - `Take`
 - `Drop`
 - `SplitAt`
@@ -46,5 +48,3 @@ Like Haskell's basic `[a]` type, but operating on types rather than values.
 - `DropWhile`
 - `Inits`
 - `Tails`
-- `Elem`
-- `NotElem`
